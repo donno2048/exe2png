@@ -39,13 +39,13 @@ optional arguments:
 For example, we can encode my [snake executable](https://github.com/donno2048/snake) to a greyscale PNG image:
 
 ```sh
-wget https://github.com/donno2048/snake/releases/download/v14/snake.com
+wget https://github.com/donno2048/snake/releases/download/v16/snake.com
 exe2png -e -H 15 -f snake.com -o snakeL.png
 ```
 
 and get this:
 
-![greyscale image](snakeL.png)
+![greyscale image](https://github.com/donno2048/exe2png/raw/master/snakeL.png)
 
 and we can decode the image back to a file:
 
@@ -61,7 +61,7 @@ exe2png -e -c -H 9 -f snake.com -o snakeRGB.png
 
 and get this:
 
-![color image](snakeRGB.png)
+![color image](https://github.com/donno2048/exe2png/raw/master/snakeRGB.png)
 
 and we can decode the image back to a file:
 
@@ -71,4 +71,4 @@ exe2png -d -c -f snakeRGB.png -o snake.com
 
 Here is python itself encoded into a PNG image:
 
-![python image](python.png)
+![python image](https://github.com/donno2048/exe2png/raw/master/python.png)
