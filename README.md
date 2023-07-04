@@ -36,7 +36,7 @@ optional arguments:
                         the file to output to
 ```
 
-For example, we can encode my [snake executable](https://github.com/donno2048/snake) to a greyscale PNG image:
+For example, we can encode my [snake executable](https://github.com/donno2048/snake) to a greyscale PNG image (the version used in this demo is very outdated):
 
 ```sh
 wget https://github.com/donno2048/snake/releases/download/v16/snake.com
