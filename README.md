@@ -40,7 +40,7 @@ For example, we can encode my [snake executable](https://github.com/donno2048/sn
 
 ```sh
 wget https://github.com/donno2048/snake/releases/download/v31/snake.com
-exe2png -e -H 15 -f snake.com -o snakeL.png
+exe2png -e -H 8 -f snake.com -o snakeL.png
 ```
 
 and get this:
@@ -56,7 +56,7 @@ exe2png -d -f snakeL.png -o snake.com
 or we can encode a color image:
 
 ```sh
-exe2png -e -c -H 9 -f snake.com -o snakeRGB.png
+exe2png -e -c -H 4 -f snake.com -o snakeRGB.png
 ```
 
 and get this:
